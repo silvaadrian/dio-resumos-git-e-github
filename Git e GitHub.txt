@@ -1,0 +1,89 @@
+branch -> ramificações
+
+merge -> fusões
+
+git pull -> verifica se tem atualizações (quando há mais de um colaborador)
+
+git commit -> grava alterações no seu repositório 
+
+git push -> empurrar alterações para o repositório remoto
+
+GIT -> SISTEMA DE VERSIONAMENTO OPEN SOURCE (DISTRIBUIDO)
+
+______________________________________________________________________
+
+GITHUB -> PLATAFORMA DE HOSPEDAGEM DE CÓDIGO PARA CONTROLE DE VERSÃO
+COM O GIT
+
+______________________________________________________________________
+
+Instalando Git no Windows:
+
+https://git-scm.com/downloads
+
+______________________________________________________________________
+
+Configurando o Git no computador:
+
+git config.
+
+git config --global user.name ou user.nome -> armazena mesmo nome e e-mail 
+
+Configurado isso os commits que fizer ficam com esses dados salvos (carimba)
+
+git config init.defaultBranch -> mostra a ramificação padrão
+
+git config --global init.defaultBranch + nomeQueQuiser para alterar
+
+______________________________________________________________________
+
+Token no GitHub:
+
+Token: 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
+______________________________________________________________________
+
+Pastas com arquivos .gitkeep tem objetivo de upar a pasta mesmo que não tenha nada dentro.
+
+______________________________________________________________________
+
+git restore nomeArquivo -> Restaura o arquivo para original
+
+______________________________________________________________________
+
+git commit --amend -m "Novo nome" altera o nome do último commit
+
+______________________________________________________________________
+
+git --soft volta os dados para area de preparação de modo que tenha que executar o git commit -m ""
+
+______________________________________________________________________
+
+git --mixed volta os dados de forma que tenha que executar o git add .
+
+______________________________________________________________________
+
+git --hard apaga todos dados dos commits posteriores
+
+______________________________________________________________________
+
+git reflog -> informad de forma detalhada os commits realizados (histórico)
+______________________________________________________________________
+
+git restore --staged nomearquivo remove da arvore o arquivo
+
+______________________________________________________________________
+
+git checkout -b nomequequisercriardebranch
+
+______________________________________________________________________
+
+git merge nomebranchparamescla -> unificar arquivos
+
+______________________________________________________________________
+
+git branch -> lista branchs
+
+______________________________________________________________________
+
+git branch -d teste -> deleta branchs
+______________________________________________________________________
